@@ -1,0 +1,71 @@
+mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2pos	Notes	ref_title	ref_doi	status
+1	SARS-CoV-2		NSP12	Remdesivir	E802D	2.14	NSP12	E802D	Alters interaction with aas	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
+2	SARS-CoV-2		NSP12	Remdesivir	E802A	2.54	NSP12	E802A	Alters interaction with aas	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
+3	murine hepatitis virus		rdrp	Remdesivir	F476L	2.4			?Remain MOL sensitive?	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+4	murine hepatitis virus		rdrp	Remdesivir	V553L	5			?Remain MOL sensitive?	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+5	murine hepatitis virus		rdrp	Remdesivir	"F476L + V553L	"	5.6			?Remain MOL sensitive?	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+6	SARS-CoV		rdrp	Remdesivir	F476L + V553L	6		F480L + V557L	?Remain MOL sensitive?	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+7	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	I190T	2		VEEV I190T		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+8	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	P187S	0.3		VEEV P187S		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+9	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	A189T	5		VEEV A189T		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+10	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	A189V	20		VEEV A189V		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+11	influenza		rdrp	Favipiravir	K229R	R					doi.org/10.1073/pnas.1811345115	A
+12	chikungunya		rdrp	Favipiravir	K291R	R					doi.org/10.1093/jac/dku209	A
+13	Human Enterovirus	EV71	rdrp	Favipiravir	S121N	R					doi.org/10.1128/AAC.01073-16	A
+14	Norovirus	GOSH	rdrp	Favipiravir	A44S	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+15	Norovirus	GOSH	rdrp	Favipiravir	K103R	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+16	Norovirus	GOSH	rdrp	Favipiravir	S198A	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+17	Norovirus	GOSH	rdrp	Favipiravir	I274T	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+18	Norovirus	GOSH	rdrp	Favipiravir	A312T	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+19	Norovirus	GOSH	rdrp	Favipiravir	I332V	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+20	Norovirus	RUIS	rdrp	Favipiravir	N18S	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
+21	Human Poliovirus		rdrp	Ribavirin	F64S	3				Pfeiffer 2014	doi.org/10.1073/pnas.1232294100	A
+22	Human Enterovirus	EV71	rdrp	Ribavirin	G64N	S				Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+23	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	R				Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+24	Human Enterovirus	EV71	rdrp	Ribavirin	G64T	R				Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+25	Human Enterovirus	EV71	rdrp	Ribavirin	S264L	R				Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+26	foot-and-mouth disease virus		rdrp	Ribavirin	R84H	1.2				Zeng 2013	doi.org/10.1016/j.antiviral.2013.07.008	A
+27	Coxsackie virus	B3	rdrp	Ribavirin	S299T	S				Levi 2010	doi.org/10.1371/journal.ppat.1001163	A
+28	Human Enterovirus	EV71	rdrp	Ribavirin	L123F	37				Meng 2014	doi.org/10.1128/JVI.00289-14	A
+29	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	93				Meng 2014	doi.org/10.1128/JVI.00289-14	A
+30	Human Enterovirus	EV71	rdrp	Ribavirin	G64R/L123F	535				Meng 2014	doi.org/10.1128/JVI.00289-14	A
+31	chikungunya virus		rdrp	Ribavirin	C483Y	10				Coffey 2011	doi.org/10.1073/pnas.1111650108	A
+32	Human Hepaitis C		NS5A	Ribavirin	G404S	r				Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
+33	Human Hepaitis C		NS5A	Ribavirin	E442G 	r				Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
+34	foot-and-mouth disease virus		rdrp	Ribavirin	A38V	high fidelity same sensitivity				Zeng 2014	doi.org/10.1128/JVI.03594-13	A
+35	foot-and-mouth disease virus		rdrp	Ribavirin	D5N	high fidelity same sensitivity				Zeng 2014	doi.org/10.1128/JVI.03594-13	A
+36	foot-and-mouth disease virus		rdrp	Ribavirin	M296I	R				Arias 2008	doi.org/10.1128/JVI.01297-08	A
+37	chikungunya virus	06-049	rdrp	Ribavirin	C483I	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+38	chikungunya virus	06-049	rdrp	Ribavirin	C483F	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+39	chikungunya virus	06-049	rdrp	Ribavirin	C483V	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+40	chikungunya virus	06-049	rdrp	Ribavirin	C483L	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+41	chikungunya virus	06-049	rdrp	Ribavirin	C483W	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+42	chikungunya virus	06-049	rdrp	Ribavirin	C483M	8				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+43	chikungunya virus	06-049	rdrp	Ribavirin	C483A	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+44	chikungunya virus	06-049	rdrp	Ribavirin	C483G	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+45	chikungunya virus	06-049	rdrp	Ribavirin	C483Y	20				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+46	chikungunya virus	06-049	rdrp	Ribavirin	C483T	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+47	chikungunya virus	06-049	rdrp	Ribavirin	C483N	18				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+48	chikungunya virus	06-049	rdrp	Ribavirin	C483Q	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+49	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+50	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+	SARS-CoV-2		NSP12	Remdesivir						Sheahan 2020		U
+	SARS-CoV-2		NSP12	Molnupiravir				MHV K160E	conserved x other coronaviruses. No evidence resist	Sheahan 2020		U
+	SARS-CoV-2		NSP12	Molnupiravir				MHV A234T	Fixed change multiple lines	Sheahan 2020		U
+	SARS-CoV-2		NSP12	Molnupiravir				MHV T552I	conserved x other coronaviruses. No evidence resist	Sheahan 2020		U
+	SARS-CoV-2		NSP12	Molnupiravir				MERS V558I	x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+	SARS-CoV-2		NS12	Ribavirin				FMD P44S				U
+	MHV		NS12							Sheahan 2020		U
+	MHV		NS12							Sheahan 2020		U
+	MHV		NS12	Molnupiravir	K160E				x30 conserved x other coronaviruses	Sheahan 2020		U
+	MHV		NS12		A234T				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+	MHV		NS12						No evidence resist			U
+	MHV		NS12		T552I				x30 Conserved across multiple coronaviruses	Sheahan 2020		U
+	MHV		NS12						No evidence resist			U
+	MERS		NSP 12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+	Ebola			Remdesivir	F548S	4			F motif of polymerase			U
+	Ebola				T562A	2			F ogif polymerase			U
+	VEEV/WEEV		NSP4	Molnupiravir	I190T				A201I & V308I  cause reversion to sensitivity ie compensatory mutations	Urakova		U
+	VEEV/WEEV				P187S							U
+	VEEV/WEEV				A189V							U
+	FMD			Ribavirin	P44S				ºP187S in VEEV			U
