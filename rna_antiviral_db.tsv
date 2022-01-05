@@ -9,9 +9,9 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 8	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	P187S	0.3		VEEV P187S		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
 9	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	A189T	5		VEEV A189T		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
 10	Venezuelan equine encephalitis virus		rdrp	Molnupiravir-metabolite	A189V	20		VEEV A189V		Urakova 2018	doi.org/10.1128/JVI.01965-17	A
-11	influenza		rdrp	Favipiravir	K229R	R					doi.org/10.1073/pnas.1811345115	A
-12	chikungunya		rdrp	Favipiravir	K291R	R					doi.org/10.1093/jac/dku209	A
-13	Human Enterovirus	EV71	rdrp	Favipiravir	S121N	R					doi.org/10.1128/AAC.01073-16	A
+11	influenza		rdrp	Favipiravir	K229R	R	NSP12	K545		Goldhill 2018	doi.org/10.1073/pnas.1811345115	A
+12	chikungunya		rdrp	Favipiravir	K291R	R	NSP12	K545		Delang 2014	doi.org/10.1093/jac/dku209	A
+13	Human Enterovirus	EV71	rdrp	Favipiravir	S121N	R	NSP12	N507		Wang 2016	doi.org/10.1128/AAC.01073-16	A
 14	Norovirus	GOSH	rdrp	Favipiravir	A44S	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
 15	Norovirus	GOSH	rdrp	Favipiravir	K103R	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
 16	Norovirus	GOSH	rdrp	Favipiravir	S198A	NA			mutants feasibly occur under Favi treatment	UCL Internal		A
@@ -62,7 +62,7 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 	MHV		NS12						No evidence resist			U
 	MHV		NS12		T552I				x30 Conserved across multiple coronaviruses	Sheahan 2020		U
 	MHV		NS12						No evidence resist			U
-	MERS		NSP 12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+	MERS		NSP12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
 	Ebola			Remdesivir	F548S	4			F motif of polymerase			U
 	Ebola				T562A	2			F ogif polymerase			U
 	VEEV/WEEV		NSP4	Molnupiravir	I190T				A201I & V308I  cause reversion to sensitivity ie compensatory mutations	Urakova		U
