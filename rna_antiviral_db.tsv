@@ -49,11 +49,12 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 48	chikungunya virus	06-049	rdrp	Ribavirin	C483Q	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
 49	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
 50	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S				Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-52	murine hepatitis virus		rdrp	Molnupiravir	K160E				x30 conserved x other coronaviruses. No evidence resist	Sheahan 2020		U
-53	murine hepatitis virus		rdrp	Molnupiravir	A234T				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
-54	murine hepatitis virus		rdrp	Molnupiravir	T552I				x30 Conserved across multiple coronaviruses. No evidence resist	Sheahan 2020		U
-55	MERS-CoV		rdrp	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
-56	foot-and-mouth disease virus		rdrp	Ribavirin	P44S				ºP187S in VEEV			U
-64	MERS		NSP12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
-65	Ebola			Remdesivir	F548S	4			F motif of polymerase			U
-66	Ebola				T562A	2			F ogif polymerase			U
+51	murine hepatitis virus		rdrp	Molnupiravir	K160E				x30 conserved x other coronaviruses. No evidence resist	Sheahan 2020		U
+52	murine hepatitis virus		rdrp	Molnupiravir	A234T				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+53	murine hepatitis virus		rdrp	Molnupiravir	T552I				x30 Conserved across multiple coronaviruses. No evidence resist	Sheahan 2020		U
+54	MERS-CoV		rdrp	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+55	foot-and-mouth disease virus		rdrp	Ribavirin	P44S				ºP187S in VEEV			U
+56	MERS		NSP12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
+57	Ebola			Remdesivir	F548S	4			F motif of polymerase			U
+58	Ebola				T562A	2			F ogif polymerase			U
+										
