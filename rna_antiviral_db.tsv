@@ -57,4 +57,3 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 56	MERS		NSP12	Molnupiravir	V558I				x30 Recurrent fixed mutation in multiple passaged lines	Sheahan 2020		U
 57	Ebola			Remdesivir	F548S	4			F motif of polymerase			U
 58	Ebola				T562A	2			F ogif polymerase			U
-										
