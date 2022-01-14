@@ -90,3 +90,6 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 89	Poliovirus type 1		rdrp	Ribavirin	S416A	S				Kempf 2016	doi.org/10.1128/JVI.00078-16	A
 90	Poliovirus type 1		rdrp	Ribavirin	L419A	S				Kempf 2016	doi.org/10.1128/JVI.00078-16	A
 91	Poliovirus type 1		rdrp	Ribavirin	L420A	S				Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+92	Tick-Borne Encephalitis Virus		NS5	Galidesivir	E460D	R				Eye 2019	doi.org/10.1128/JVI.00367-19	A
+93	mouse hepatitis virus		3CLpro	GRL-001	T26I	R				Deng 2014	doi.org/10.1128/JVI.01528-14	A
+94	mouse hepatitis virus		3CLpro	GRL-001	D65G	R				Deng 2014	doi.org/10.1128/JVI.01528-14	A
