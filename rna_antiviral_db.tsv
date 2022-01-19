@@ -1,102 +1,101 @@
-mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2pos	Notes	category	struc_notes_homology	struc_notes_mutataion_impact	ref_title	ref_doi	status
-1	SARS-CoV-2		NSP12	Remdesivir	E802D	2.14	NSP12	E802D	Alters interaction with aas		good	paper: minor structural modification of NSP12 that potentially influences the position of C813 and S814	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
-2	SARS-CoV-2		NSP12	Remdesivir	E802A	2.54	NSP12	E802A	Alters interaction with aas		good	paper: minor structural modification of NSP12 that potentially influences the position of C813 and S814	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
-3	murine hepatitis virus		rdrp	Remdesivir	F476L	2.4	NSP12	F480	?Remain MOL sensitive?		clear	can shift cat res 691	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
-4	murine hepatitis virus		rdrp	Remdesivir	V553L	5	NSP12	V557	?Remain MOL sensitive?		clear	interacts with ssrna coming in	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
-5	murine hepatitis virus		rdrp	Remdesivir	"F476L + V553L	"	5.6	NSP12	F480 + V557	?Remain MOL sensitive?		clear	can shift cat res 691	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
-6	SARS-CoV		rdrp	Remdesivir	F476L + V553L	6	NSP12	F480 + V557	?Remain MOL sensitive?				Agostini 2018	doi.org/10.1128/mBio.00221-18	A
-7	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	I190T	2		A443	A201I & V308I  cause reversion to sensitivity ie compensatory mutations		unsure	new hbond to 293 -> unclear moa . in sars2 unsure	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
-8	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	P187S	0.3	NSP12	F442?					Urakova 2018	doi.org/10.1128/JVI.01965-17	A
-9	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	A189T	5	NSP12	Y546?			unsure	interacts with dsrna maybe via 291	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
-10	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	A189V	20	NSP12	Y546?			unsure	interacts with dsrna maybe via 291	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
-11	Influenza A	Eng15	rdrp	Favipiravir	K229R	R	NSP12	K545	Equivalent position found in Naydenova 2021		clear / good	Reported good - alters favi binding pocket forces it into a conformation	Goldhill 2018	doi.org/10.1073/pnas.1811345115	A
-12	chikungunya		rdrp	Favipiravir	K291R	R	NSP12	K545	Equivalent position found in Naydenova 2021		good	Well characterised as resistance causing in many viruses, alters conformation of catalytic residues	Delang 2014	doi.org/10.1093/jac/dku209	A
-13	Human Enterovirus	EV71	rdrp	Favipiravir	S121N	R	NSP12	N507			ok	Binds incoming rna chain, i.e. may specifically alter favi binding specificity	Wang 2016	doi.org/10.1128/AAC.01073-16	A
-14	Norovirus	GOSH	rdrp	Favipiravir	A44S	NA	NSP12	F442?A443?	mutants feasibly occur under Favi treatment		difficult		UCL Internal		A
-15	Norovirus	GOSH	rdrp	Favipiravir	K103R	NA	NSP12	I488?	mutants feasibly occur under Favi treatment				UCL Internal		A
-16	Norovirus	GOSH	rdrp	Favipiravir	S198A	NA	NSP12	F571	mutants feasibly occur under Favi treatment				UCL Internal		A
-17	Norovirus	GOSH	rdrp	Favipiravir	I274T	NA	NSP12	R654?	mutants feasibly occur under Favi treatment				UCL Internal		A
-18	Norovirus	GOSH	rdrp	Favipiravir	A312T	NA	NSP12	F694?	mutants feasibly occur under Favi treatment				UCL Internal		A
-19	Norovirus	GOSH	rdrp	Favipiravir	I332V	NA	NSP12	L749?	mutants feasibly occur under Favi treatment				UCL Internal		A
-20	Norovirus	RUIS	rdrp	Favipiravir	N18S	NA		?	mutants feasibly occur under Favi treatment				UCL Internal		A
-21	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64S	3	NSP12	N459			ok-ish	Unsure	Pfeiffer 2003, Pfeiffer 2014	doi.org/10.1073/pnas.1232294100 doi.org/10.1073/pnas.1232294100	A
-22	Human Enterovirus	EV71	rdrp	Ribavirin	G64N	S	NSP12	T462			Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
-23	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	93	NSP12	T462			Questionable	Unsure quite near cat	Sadeghipour 2013, Meng 2014	doi.org/10.1128/JVI.02139-12 doi.org/10.1128/JVI.00289-14	A
-24	Human Enterovirus	EV71	rdrp	Ribavirin	G64T	R	NSP12	T462			Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
-25	Human Enterovirus	EV71	rdrp	Ribavirin	S264L	R	NSP12	L655			655-657	Unsure	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
-26	foot-and-mouth disease virus		rdrp	Ribavirin	R84H	1.2	NSP12	L478			clear		Zeng 2013	doi.org/10.1016/j.antiviral.2013.07.008	A
-27	Coxsackie virus B3		rdrp	Ribavirin	S299T	S	NSP12	S692			Clear	near cat res 691 & 760. Hbond to 759 altered / steric bulk shifts cat res	Levi 2010	doi.org/10.1371/journal.ppat.1001163	A
-28	Human Enterovirus	EV71	rdrp	Ribavirin	L123F	37	NSP12	W509			ok		Meng 2014	doi.org/10.1128/JVI.00289-14	A
-29	Human Enterovirus	EV71	rdrp	Ribavirin	G64R + L123F	535	NSP12	N459 + W509?			Questionable	Unsure quite near cat	Meng 2014	doi.org/10.1128/JVI.00289-14	A
-30	chikungunya virus		rdrp	Ribavirin	C483Y	10	NSP12	L786?			ok Cysteine isnt obviously bound to something else which may be why many mutations are allowed. L786 is the most sensible homologous site	contacts 619, 618 is catalytic.	Coffey 2011	doi.org/10.1073/pnas.1111650108	A
-31	Human Hepaitis C		NS5A	Ribavirin	G404S	r	?	NA			not rdrp	NA	Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
-32	Human Hepaitis C		NS5A	Ribavirin	E442G	r	?	NA			not rdrp	NA	Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
-33	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A38V	high fidelity same sensitivity	NSP12	A443	To discuss		Questionable	Unsure	Zeng 2014	doi.org/10.1128/JVI.03594-13	A
-34	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	D5N	high fidelity same sensitivity	NSP12	F396?	To discuss		Questionable	Unsure	Zeng 2014	doi.org/10.1128/JVI.03594-13	A
-35	foot-and-mouth disease virus		rdrp	Ribavirin	M296I	R	NSP12	T680			clear	Alterations here likely shift cat res 691	Arias 2008	doi.org/10.1128/JVI.01297-08	A
-36	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	M194I	r	NSP12	Q570			clear	Unsure	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
-37	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A122T	r	NSP12	N507			ok	In fmdv this allows a new H-bond interaction with Q160 right where a rna single strand enters. In sars2 this interraction exists, and breaking it may have the resistance effect	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
-38	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	R440W	r	NSP12	H882			ok-ish	Away from anything catalytic hard to tell	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
-39	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A122T + M194I + M296I + R440W	R							Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
-40	chikungunya virus	06-049	rdrp	Ribavirin	C483I	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-41	chikungunya virus	06-049	rdrp	Ribavirin	C483F	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-42	chikungunya virus	06-049	rdrp	Ribavirin	C483V	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-43	chikungunya virus	06-049	rdrp	Ribavirin	C483L	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-44	chikungunya virus	06-049	rdrp	Ribavirin	C483W	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-45	chikungunya virus	06-049	rdrp	Ribavirin	C483M	8	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-46	chikungunya virus	06-049	rdrp	Ribavirin	C483A	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-47	chikungunya virus	06-049	rdrp	Ribavirin	C483G	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-48	chikungunya virus	06-049	rdrp	Ribavirin	C483Y	20	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-49	chikungunya virus	06-049	rdrp	Ribavirin	C483T	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-50	chikungunya virus	06-049	rdrp	Ribavirin	C483N	18	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-51	chikungunya virus	06-049	rdrp	Ribavirin	C483Q	S	NSP12	L786?			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-52	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S	NSP12	T787?					Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-53	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S	NSP12	T787?					Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-54	murine hepatitis virus		rdrp	Molnupiravir	K160E		NSP12	K160	x30 conserved x other coronaviruses. No evidence resist				Sheahan 2020		U
-55	murine hepatitis virus		rdrp	Molnupiravir	A234T		NSP12	V234	x30 Recurrent fixed mutation in multiple passaged lines				Sheahan 2020		U
-56	murine hepatitis virus		rdrp	Molnupiravir	T552I		NSP12	T556	x30 Conserved across multiple coronaviruses. No evidence resist				Sheahan 2020		U
-57	MERS-CoV		NSP12	Molnupiravir	V558I		NSP12	V560	x30 Recurrent fixed mutation in multiple passaged lines				Sheahan 2020		U
-58	foot-and-mouth disease virus		rdrp	Ribavirin	P44S		NSP12	NA	ºP187S in VEEV		NA - FMDV has extra loop compared to sars2	NA			U
-59	Ebola			Remdesivir	F548S	4			F motif of polymerase						U
-60	Ebola				T562A	2			F ogif polymerase						U
-61	West Nile virus	NY99	NS5 (rdrp)	Ribavirin	V793I								Van Slyke 2015	doi.org/10.1371/journal.ppat.1005010	A
-62	West Nile virus	NY99	NS5 (rdrp)	Ribavirin	G806R								Van Slyke 2015	doi.org/10.1371/journal.ppat.1005010	A
-63	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64A	R	NSP12	N459			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
-64	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64T	R	NSP12	N459			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
-65	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64V	r	NSP12	N459			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
-66	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64L	r	NSP12	N459			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
-67	Influenza A		PB1	Ribavirin	D27N	R	NSP12	P843			ok	Unsure	Binh 2014	10.1016/j.bbrc.2013.12.071	A
-68	Coxsackie virus B3	Nancy	rdrp	Ribavirin	A372V	2	NSP12	G808			ok 808 or/and 809. A372 maintains hydrophobic environemnt with 229 and 225. 808 does the same with 606 and 614	unknkown - loss of hphobic pocket can shift but to what end?	Levi 2010	10.1371/journal.ppat.1001163	A
-69	 St. Louis encephalitis virus		rdrp	Ribavirin	E416K	R		K508			poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
-70	 St. Louis encephalitis virus		rdrp	Favipiravir	E416K	R		K508			poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
-71	Coxsackie virus B3		rdrp	Ribavirin	A372V	R	NSP12	G808			ok 808 or/and 809. A372 maintains hydrophobic environemnt with 229 and 225. 808 does the same with 606 and 614	unknkown - loss of hphobic pocket can shift but to what end?	Beaucourt 2011	https://doi.org/10.3791/2953	A
-72	porcine reproductive and respiratory syndrome virus		rdrp	Ribavirin	A283T	R	NSP12	V495			ok-ish	allows new hopnd to gln306 all near ssdna 	Tian 2016	doi.org/10.1099/jgv.0.000316	A
-73	porcine reproductive and respiratory syndrome virus		rdrp	Ribavirin	H421Y	R	NSP12	H642			ok	in that noro cluster region	Tian 2016	doi.org/10.1099/jgv.0.000316	A
-74	Coxsackie virus	B3	rdrp	Ribavirin	F364W	10	NSP12	E796?			ok L796 occupies the same space as F364w, neither particularly strongly bind loops together	Larger sidechain forc	McDonald 2016	doi.org/10.1074/jbc.M116.726596	A
-75	Poliovirus type 1		rdrp	Ribavirin	K359R	R	NSP12	K798?			none	Very close to 798 in sars2, likely this is catalytic in polio	Weeks 2012	doi.org/10.1074/jbc.C112.401471	A
-76	Influenza A		PB1	Ribavirin	V43I	R	NSP12	Y456?			ok-ish	Unsure	Cheung 2014	doi.org/10.1038/ncomms5794	A
-77	Influenza A		PB1	Ribavirin	V191I	r		None			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
-78	Influenza A		PB1	Ribavirin	A661T	r		None			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
-79	Influenza A		PB1	Ribavirin	S741F	r		None			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
-80	Influenza A		PB1	Ribavirin	V43I	R	NSP12	Y456?			ok-ish	Unsure	Cheung 2014	doi.org/10.1038/ncomms5794	A
-81	Poliovirus type 1	Sabin	rdrp	Favipiravir	N18S	1.5	NSP12	N404?			poor	Unsure	Daikoku 2017	doi.org/10.1016/j.jmii.2017.03.004	A
-82	Poliovirus type 1	Sabin	rdrp	Favipiravir	K139R	1.3	NSP12	S520?			NA		Daikoku 2017	doi.org/10.1016/j.jmii.2017.03.004	A
-83	Poliovirus type 1		rdrp	Ribavirin	K126A	S	NSP12	K511			good	interacts ssrna entering	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-84	Poliovirus type 1		rdrp	Ribavirin	R128A	S	NSP12	R513			good	interacts 498 which can widen / narrow the ssrna entry depending on if bond broken or enhanced	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-85	Poliovirus type 1		rdrp	Ribavirin	K133A	S		?			NA		Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-86	Poliovirus type 1		rdrp	Ribavirin	K276A	S	NSP12	G670?			good	near ssrna entry again	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-87	Poliovirus type 1		rdrp	Ribavirin	N409A	S	NSP12	L854			ok	interacts with dsrna	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-88	Poliovirus type 1		rdrp	Ribavirin	D412A	S	NSP12	E857			clear	interacts with dsrna	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-89	Poliovirus type 1		rdrp	Ribavirin	S416A	S	NSP12	S861					Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-90	Poliovirus type 1		rdrp	Ribavirin	L419A	S	NSP12	I864					Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-91	Poliovirus type 1		rdrp	Ribavirin	L420A	S	NSP12	D865			clear	interacts with ssrna coming in	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
-															
-	SARS-CoV-2			Favipiravir			NSP12	K798	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	D618	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	D761	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	D760	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	N691	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	K621	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	D623	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Favipiravir			NSP12	S682	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
-	SARS-CoV-2			Natural NTP			NSP12	K545	Catalytic pocket				Peng 2021	doi.org/10.1016/j.xinn.2021.100080	
+mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2pos	Score	Notes	category	struc_notes_homology	struc_notes_mutataion_impact	ref_title	ref_doi	status
+1	SARS-CoV-2		NSP12	Remdesivir	E802D	2.14	NSP12	E802D	2	Alters interaction with aas		good	paper: minor structural modification of NSP12 that potentially influences the position of C813 and S814	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
+2	SARS-CoV-2		NSP12	Remdesivir	E802A	2.54	NSP12	E802A	2	Alters interaction with aas		good	paper: minor structural modification of NSP12 that potentially influences the position of C813 and S814	Szemiel 2021	doi.org/10.1371/journal.ppat.1009929	A
+3	murine hepatitis virus		rdrp	Remdesivir	F476L	2.4	NSP12	F480	2	?Remain MOL sensitive?		good	can shift cat res 691	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+4	murine hepatitis virus		rdrp	Remdesivir	V553L	5	NSP12	V557	1	?Remain MOL sensitive?		good	interacts with ssrna coming in	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+5	murine hepatitis virus		rdrp	Remdesivir	"F476L + V553L	"	5.6	NSP12	F480 + V557	1	?Remain MOL sensitive?		good	can shift cat res 691	Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+6	SARS-CoV		rdrp	Remdesivir	F476L + V553L	6	NSP12	F480 + V557	1	?Remain MOL sensitive?		good		Agostini 2018	doi.org/10.1128/mBio.00221-18	A
+7	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	I190T	2		A443	0	A201I & V308I  cause reversion to sensitivity ie compensatory mutations		unsure	new hbond to 293 -> unclear moa . in sars2 unsure	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+8	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	P187S	0.3	NSP12	F442?	3					Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+9	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	A189T	5	NSP12	Y546?	3			unsure	interacts with dsrna maybe via 291	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+10	Venezuelan equine encephalitis virus		NSP4	Molnupiravir-metabolite	A189V	20	NSP12	Y546?	3			unsure	interacts with dsrna maybe via 291	Urakova 2018	doi.org/10.1128/JVI.01965-17	A
+11	Influenza A	Eng15	rdrp	Favipiravir	K229R	R	NSP12	K545	2	Equivalent position found in Naydenova 2021		good	Reported good - alters favi binding pocket forces it into a conformation	Goldhill 2018	doi.org/10.1073/pnas.1811345115	A
+12	chikungunya		rdrp	Favipiravir	K291R	R	NSP12	K545	2	Equivalent position found in Naydenova 2021		good	Well characterised as resistance causing in many viruses, alters conformation of catalytic residues	Delang 2014	doi.org/10.1093/jac/dku209	A
+13	Human Enterovirus	EV71	rdrp	Favipiravir	S121N	R	NSP12	N507	1			ok	Binds incoming rna chain, i.e. may specifically alter favi binding specificity	Wang 2016	doi.org/10.1128/AAC.01073-16	A
+14	Norovirus	GOSH	rdrp	Favipiravir	A44S	NA	NSP12	F442?A443?	2	mutants feasibly occur under Favi treatment		difficult		UCL Internal	NA	A
+15	Norovirus	GOSH	rdrp	Favipiravir	K103R	NA	NSP12	I488?	1	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+16	Norovirus	GOSH	rdrp	Favipiravir	S198A	NA	NSP12	F571	1	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+17	Norovirus	GOSH	rdrp	Favipiravir	I274T	NA	NSP12	R654?	1	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+18	Norovirus	GOSH	rdrp	Favipiravir	A312T	NA	NSP12	F694?	1	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+19	Norovirus	GOSH	rdrp	Favipiravir	I332V	NA	NSP12	L749?	1	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+20	Norovirus	RUIS	rdrp	Favipiravir	N18S	NA		?	0	mutants feasibly occur under Favi treatment				UCL Internal	NA	A
+21	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64S	3	NSP12	N459	1			ok-ish	Unsure	Pfeiffer 2003, Pfeiffer 2014	doi.org/10.1073/pnas.1232294100 doi.org/10.1073/pnas.1232294100	A
+22	Human Enterovirus	EV71	rdrp	Ribavirin	G64N	S	NSP12	T462	1			Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+23	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	93	NSP12	T462	1			Questionable	Unsure quite near cat	Sadeghipour 2013, Meng 2014	doi.org/10.1128/JVI.02139-12 doi.org/10.1128/JVI.00289-14	A
+24	Human Enterovirus	EV71	rdrp	Ribavirin	G64T	R	NSP12	T462	1			Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+25	Human Enterovirus	EV71	rdrp	Ribavirin	S264L	R	NSP12	L655	1			655-657	Unsure	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
+26	foot-and-mouth disease virus		rdrp	Ribavirin	R84H	1.2	NSP12	L478				good		Zeng 2013	doi.org/10.1016/j.antiviral.2013.07.008	A
+27	Coxsackie virus B3		rdrp	Ribavirin	S299T	S	NSP12	S692	2			good	near cat res 691 & 760. Hbond to 759 altered / steric bulk shifts cat res	Levi 2010	doi.org/10.1371/journal.ppat.1001163	A
+28	Human Enterovirus	EV71	rdrp	Ribavirin	L123F	37	NSP12	W509	1			ok		Meng 2014	doi.org/10.1128/JVI.00289-14	A
+29	Human Enterovirus	EV71	rdrp	Ribavirin	G64R + L123F	535	NSP12	N459 + W509?				Questionable	Unsure quite near cat	Meng 2014	doi.org/10.1128/JVI.00289-14	A
+30	chikungunya virus		rdrp	Ribavirin	C483Y	10	NSP12	L786?	1			ok Cysteine isnt obviously bound to something else which may be why many mutations are allowed. L786 is the most sensible homologous site	contacts 619, 618 is catalytic.	Coffey 2011	doi.org/10.1073/pnas.1111650108	A
+31	Human Hepaitis C		NS5A	Ribavirin	G404S	r	?	NA	1			not rdrp	NA	Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
+32	Human Hepaitis C		NS5A	Ribavirin	E442G	r	?	NA	0			not rdrp	NA	Pfeiffer 2005	doi.org/10.1128/JVI.79.4.2346-2355.2005	A
+33	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A38V	high fidelity same sensitivity	NSP12	A443	2	To discuss		Questionable	Unsure	Zeng 2014	doi.org/10.1128/JVI.03594-13	A
+34	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	D5N	high fidelity same sensitivity	NSP12	F396?	1	To discuss		Questionable	Unsure	Zeng 2014	doi.org/10.1128/JVI.03594-13	A
+35	foot-and-mouth disease virus		rdrp	Ribavirin	M296I	R	NSP12	T680	1			good	Alterations here likely shift cat res 691	Arias 2008	doi.org/10.1128/JVI.01297-08	A
+36	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	M194I	r	NSP12	Q570	1			good	Unsure	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
+37	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A122T	r	NSP12	N507	1			ok	In fmdv this allows a new H-bond interaction with Q160 right where a rna single strand enters. In sars2 this interraction exists, and breaking it may have the resistance effect	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
+38	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	R440W	r	NSP12	H882	1			ok-ish	Away from anything catalytic hard to tell	Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
+39	foot-and-mouth disease virus	Asia1	rdrp	Ribavirin	A122T + M194I + M296I + R440W	R								Li 2018	doi.org/10.1016/j.virol.2018.01.030	A
+40	chikungunya virus	06-049	rdrp	Ribavirin	C483I	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+41	chikungunya virus	06-049	rdrp	Ribavirin	C483F	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+42	chikungunya virus	06-049	rdrp	Ribavirin	C483V	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+43	chikungunya virus	06-049	rdrp	Ribavirin	C483L	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+44	chikungunya virus	06-049	rdrp	Ribavirin	C483W	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+45	chikungunya virus	06-049	rdrp	Ribavirin	C483M	8	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+46	chikungunya virus	06-049	rdrp	Ribavirin	C483A	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+47	chikungunya virus	06-049	rdrp	Ribavirin	C483G	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+48	chikungunya virus	06-049	rdrp	Ribavirin	C483Y	20	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+49	chikungunya virus	06-049	rdrp	Ribavirin	C483T	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+50	chikungunya virus	06-049	rdrp	Ribavirin	C483N	18	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+51	chikungunya virus	06-049	rdrp	Ribavirin	C483Q	S	NSP12	L786?	1			ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+52	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S	NSP12	T787?	1					Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+53	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S	NSP12	T787?	1					Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+54	murine hepatitis virus		rdrp	Molnupiravir	K160E		NSP12	K160	3	x30 conserved x other coronaviruses. No evidence resist				Sheahan 2020	NA	U
+55	murine hepatitis virus		rdrp	Molnupiravir	A234T		NSP12	V234	3	x30 Recurrent fixed mutation in multiple passaged lines				Sheahan 2020	NA	U
+56	murine hepatitis virus		rdrp	Molnupiravir	T552I		NSP12	T556	3	x30 Conserved across multiple coronaviruses. No evidence resist				Sheahan 2020	NA	U
+57	MERS-CoV		NSP12	Molnupiravir	V558I		NSP12	V560	3	x30 Recurrent fixed mutation in multiple passaged lines				Sheahan 2020	NA	U
+58	foot-and-mouth disease virus		rdrp	Ribavirin	P44S		NSP12	NA	0	ºP187S in VEEV		NA - FMDV has extra loop compared to sars2	NA		NA	U
+59	Ebola			Remdesivir	F548S	4				F motif of polymerase					NA	U
+60	Ebola				T562A	2				F ogif polymerase					NA	U
+61	West Nile virus	NY99	NS5 (rdrp)	Ribavirin	V793I									Van Slyke 2015	doi.org/10.1371/journal.ppat.1005010	A
+62	West Nile virus	NY99	NS5 (rdrp)	Ribavirin	G806R									Van Slyke 2015	doi.org/10.1371/journal.ppat.1005010	A
+63	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64A	R	NSP12	N459	1			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
+64	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64T	R	NSP12	N459	1			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
+65	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64V	r	NSP12	N459	1			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
+66	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64L	r	NSP12	N459	1			ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
+67	Influenza A		PB1	Ribavirin	D27N	R	NSP12	P843	1			ok	Unsure	Binh 2014	10.1016/j.bbrc.2013.12.071	A
+68	Coxsackie virus B3	Nancy	rdrp	Ribavirin	A372V	2	NSP12	G808	1			ok 808 or/and 809. A372 maintains hydrophobic environemnt with 229 and 225. 808 does the same with 606 and 614	unknkown - loss of hphobic pocket can shift but to what end?	Levi 2010	10.1371/journal.ppat.1001163	A
+69	 St. Louis encephalitis virus		rdrp	Ribavirin	E416K	R		K508				poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
+70	 St. Louis encephalitis virus		rdrp	Favipiravir	E416K	R		K508				poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
+71	Coxsackie virus B3		rdrp	Ribavirin	A372V	R	NSP12	G808	1			ok 808 or/and 809. A372 maintains hydrophobic environemnt with 229 and 225. 808 does the same with 606 and 614	unknkown - loss of hphobic pocket can shift but to what end?	Beaucourt 2011	https://doi.org/10.3791/2953	A
+72	porcine reproductive and respiratory syndrome virus		rdrp	Ribavirin	A283T	R	NSP12	V495				ok-ish	allows new hopnd to gln306 all near ssdna 	Tian 2016	doi.org/10.1099/jgv.0.000316	A
+73	porcine reproductive and respiratory syndrome virus		rdrp	Ribavirin	H421Y	R	NSP12	H642				ok	in that noro cluster region	Tian 2016	doi.org/10.1099/jgv.0.000316	A
+74	Coxsackie virus	B3	rdrp	Ribavirin	F364W	10	NSP12	E796?	1			ok L796 occupies the same space as F364w, neither particularly strongly bind loops together	Larger sidechain forc	McDonald 2016	doi.org/10.1074/jbc.M116.726596	A
+75	Poliovirus type 1		rdrp	Ribavirin	K359R	R	NSP12	K798?	1			none	Very close to 798 in sars2, likely this is catalytic in polio	Weeks 2012	doi.org/10.1074/jbc.C112.401471	A
+76	Influenza A		PB1	Ribavirin	V43I	R	NSP12	Y456?				ok-ish	Unsure	Cheung 2014	doi.org/10.1038/ncomms5794	A
+77	Influenza A		PB1	Ribavirin	V191I	r		None	0			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
+78	Influenza A		PB1	Ribavirin	A661T	r		None	0			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
+79	Influenza A		PB1	Ribavirin	S741F	r		None	0			NA	NA	Cheung 2014	doi.org/10.1038/ncomms5794	A
+80	Influenza A		PB1	Ribavirin	V43I	R	NSP12	Y456?	1			ok-ish	Unsure	Cheung 2014	doi.org/10.1038/ncomms5794	A
+81	Poliovirus type 1	Sabin	rdrp	Favipiravir	N18S	1.5	NSP12	N404?	1			poor	Unsure	Daikoku 2017	doi.org/10.1016/j.jmii.2017.03.004	A
+82	Poliovirus type 1	Sabin	rdrp	Favipiravir	K139R	1.3	NSP12	S520?	1			NA		Daikoku 2017	doi.org/10.1016/j.jmii.2017.03.004	A
+83	Poliovirus type 1		rdrp	Ribavirin	K126A	S	NSP12	K511	1			good	interacts ssrna entering	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+84	Poliovirus type 1		rdrp	Ribavirin	R128A	S	NSP12	R513	1			good	interacts 498 which can widen / narrow the ssrna entry depending on if bond broken or enhanced	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+85	Poliovirus type 1		rdrp	Ribavirin	K133A	S		?	0			NA		Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+86	Poliovirus type 1		rdrp	Ribavirin	K276A	S	NSP12	G670?	1			good	near ssrna entry again	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+87	Poliovirus type 1		rdrp	Ribavirin	N409A	S	NSP12	L854	1			ok	interacts with dsrna	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+88	Poliovirus type 1		rdrp	Ribavirin	D412A	S	NSP12	E857	1			good	interacts with dsrna	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+89	Poliovirus type 1		rdrp	Ribavirin	S416A	S	NSP12	S861	1					Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+90	Poliovirus type 1		rdrp	Ribavirin	L419A	S	NSP12	I864	1					Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+91	Poliovirus type 1		rdrp	Ribavirin	L420A	S	NSP12	D865	1			good	interacts with ssrna coming in	Kempf 2016	doi.org/10.1128/JVI.00078-16	A
+92	SARS-CoV-2		SNP12	Favipiravir	K798	cat	NSP12	K798		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+93	SARS-CoV-2		SNP12	Favipiravir	D618	cat	NSP12	D618		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+94	SARS-CoV-2		SNP12	Favipiravir	D761	cat	NSP12	D761		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+95	SARS-CoV-2		SNP12	Favipiravir	D760	cat	NSP12	D760		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+96	SARS-CoV-2		SNP12	Favipiravir	N691	cat	NSP12	N691		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+97	SARS-CoV-2		SNP12	Favipiravir	K621	cat	NSP12	K621		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+98	SARS-CoV-2		SNP12	Favipiravir	D623	cat	NSP12	D623		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+99	SARS-CoV-2		SNP12	Favipiravir	S682	cat	NSP12	S682		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+100	SARS-CoV-2		SNP12	Natural NTP	K545	cat	NSP12	K545		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
