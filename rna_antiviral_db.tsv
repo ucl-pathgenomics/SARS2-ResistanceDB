@@ -99,3 +99,4 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2gene	sarscov2
 98	SARS-CoV-2		SNP12	Favipiravir	D623	cat	NSP12	D623		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
 99	SARS-CoV-2		SNP12	Favipiravir	S682	cat	NSP12	S682		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
 100	SARS-CoV-2		SNP12	Natural NTP	K545	cat	NSP12	K545		Catalytic pocket		same virus		Peng 2021	doi.org/10.1016/j.xinn.2021.100080	A
+
