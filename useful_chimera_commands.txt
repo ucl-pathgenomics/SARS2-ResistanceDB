@@ -1,0 +1,21 @@
+# catalytic sites
+# red
+# remdesivir
+select #10/A:798,618,761,760,691,621,623,682,545
+#molnupiravir
+select #10/A:759,688,691,687,682,760,623
+
+
+# residues with category 1-proven sars2 resistance 
+#yellow
+select #10/A:443,442,546 
+
+# residues with category 2-homologous nuc' resmut observed more than once
+#green
+select #10/A:508,545,786,808,507,462,509,459
+
+# residues observed once
+# cyan
+select #10/A:882,796,799,692,478,396,680,570,655,843,456,404,495,642,571,654,694,749
+
+
