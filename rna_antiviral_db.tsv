@@ -18,7 +18,7 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 17	Norovirus	GOSH	rdrp	Favipiravir	I274T	NA	orf1ab	5047	NSP12	R654	mutants feasibly occur under Favi treatment	4-non-homologous nuc' resmut 			UCL Internal	NA	A
 18	Norovirus	GOSH	rdrp	Favipiravir	A312T	NA	orf1ab	5087	NSP12	F694	mutants feasibly occur under Favi treatment	4-non-homologous nuc' resmut 			UCL Internal	NA	A
 19	Norovirus	GOSH	rdrp	Favipiravir	I332V	NA	orf1ab	5142	NSP12	L749	mutants feasibly occur under Favi treatment	4-non-homologous nuc' resmut 			UCL Internal	NA	A
-20	Norovirus	RUIS	rdrp	Favipiravir	N18S	NA					mutants feasibly occur under Favi treatment	4-non-homologous nuc' resmut 			UCL Internal	NA	A
+20	Norovirus	RUIS	rdrp	Favipiravir	N18S	NA					mutants feasibly occur under Favi treatment - not considered as not quite enough evidence	4-non-homologous nuc' resmut 			UCL Internal	NA	O
 21	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64S	3	orf1ab	4852	NSP12	N459		2-homologous nuc' resmut observed more than once	ok-ish	Unsure	Pfeiffer 2003, Pfeiffer 2014	doi.org/10.1073/pnas.1232294100 doi.org/10.1073/pnas.1232294100	A
 22	Human Enterovirus	EV71	rdrp	Ribavirin	G64N	S	orf1ab	4855	NSP12	T462		5-sensitive homologous	Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
 23	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	93	orf1ab	4855	NSP12	T462		2-homologous nuc' resmut observed more than once	Questionable	Unsure quite near cat	Sadeghipour 2013, Meng 2014	doi.org/10.1128/JVI.02139-12 doi.org/10.1128/JVI.00289-14	A
