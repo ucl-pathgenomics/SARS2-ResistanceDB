@@ -22,7 +22,7 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 21	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64S	3	orf1ab	4852	NSP12	N459		2-homologous nuc' resmut observed more than once	ok-ish	Unsure	Pfeiffer 2003, Pfeiffer 2014	doi.org/10.1073/pnas.1232294100 doi.org/10.1073/pnas.1232294100	A
 22	Human Enterovirus	EV71	rdrp	Ribavirin	G64N	S	orf1ab	4855	NSP12	T462		5-sensitive homologous	Questionable	Unsure quite near cat	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
 23	Human Enterovirus	EV71	rdrp	Ribavirin	G64R	93	orf1ab	4855	NSP12	T462		2-homologous nuc' resmut observed more than once	Questionable	Unsure quite near cat	Sadeghipour 2013, Meng 2014	doi.org/10.1128/JVI.02139-12 doi.org/10.1128/JVI.00289-14	A
-24	foot-and-mouth disease virus		rdrp	Ribavirin	R84H	1.2	orf1ab	4871	NSP12	L478		3-homologous nuc' resmut observed once	good		Zeng 2013	doi.org/10.1016/j.antiviral.2013.07.008	A
+24	foot-and-mouth disease virus		rdrp	Ribavirin	R84H	1.2	orf1ab	4871	NSP12	K478		3-homologous nuc' resmut observed once	good		Zeng 2013	doi.org/10.1016/j.antiviral.2013.07.008	A
 25	Coxsackie virus B3		rdrp	Ribavirin	S299T	S	orf1ab	5085	NSP12	S692		3-homologous nuc' resmut observed once	good	near cat res 691 & 760. Hbond to 759 altered / steric bulk shifts cat res	Levi 2010	doi.org/10.1371/journal.ppat.1001163	A
 26	Human Enterovirus	EV71	rdrp	Ribavirin	L123F	37	orf1ab	4902	NSP12	W509		2-homologous nuc' resmut observed more than once	ok		Meng 2014	doi.org/10.1128/JVI.00289-14	A
 27	Human Enterovirus	EV71	rdrp	Ribavirin	G64R + L123F	535	orf1ab	463902	NSP12	N459 + W509		2-homologous nuc' resmut observed more than once	Questionable	Unsure quite near cat	Meng 2014	doi.org/10.1128/JVI.00289-14	A
@@ -48,8 +48,8 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 47	chikungunya virus	06-049	rdrp	Ribavirin	C483W	S	orf1ab	5179	NSP12	L786		5-sensitive homologous	ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
 48	chikungunya virus	06-049	rdrp	Ribavirin	C483Y	20	orf1ab	5179	NSP12	L786		2-homologous nuc' resmut observed more than once	ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
 49	chikungunya virus		rdrp	Ribavirin	C483Y	10	orf1ab	5179	NSP12	L786		2-homologous nuc' resmut observed more than once	ok	contacts 619, 618 is catalytic.	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-50	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S	orf1ab	5180	NSP12	T787		5-sensitive homologous	good	unsure	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
-51	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S	orf1ab	5180	NSP12	T787		5-sensitive homologous	good	unsure	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+50	Sindbis virus	pTR339	rdrp	Ribavirin	C483A	S	orf1ab	5180	NSP12	Y787		5-sensitive homologous	good	unsure	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
+51	Sindbis virus	pTR339	rdrp	Ribavirin	C483G	S	orf1ab	5180	NSP12	Y787		5-sensitive homologous	good	unsure	Vignuzzi 2014	doi.org/10.1371/journal.ppat.1003877	A
 52	murine hepatitis virus		rdrp	Molnupiravir	K160E	R	orf1ab	4553	NSP12	K160	x30 conserved x other coronaviruses. No evidence resist				Sheahan 2020	NA	O
 53	murine hepatitis virus		rdrp	Molnupiravir	A234T	R	orf1ab	4627	NSP12	V234	x30 Recurrent fixed mutation in multiple passaged lines				Sheahan 2020	NA	O
 54	murine hepatitis virus		rdrp	Molnupiravir	T552I	R	orf1ab	4949	NSP12	T556	x30 Conserved across multiple coronaviruses. No evidence resist				Sheahan 2020	NA	O
@@ -63,7 +63,7 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 62	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64T	R	orf1ab	4852	NSP12	N459		2-homologous nuc' resmut observed more than once	ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
 63	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64V	r	orf1ab	4852	NSP12	N459		2-homologous nuc' resmut observed more than once	ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
 64	Poliovirus type 1	Mahoney	rdrp	Ribavirin	G64L	r	orf1ab	4852	NSP12	N459		2-homologous nuc' resmut observed more than once	ok-ish	Unsure	Vignuzzi 2008	10.1038/nm1726	A
-65	Influenza A		PB1	Ribavirin	D27N	R	orf1ab	5236	NSP12	P843		3-homologous nuc' resmut observed once	ok	Unsure	Binh 2014	10.1016/j.bbrc.2013.12.071	A
+65	Influenza A		PB1	Ribavirin	D27N	R	orf1ab	5236	NSP12	F843		3-homologous nuc' resmut observed once	ok	Unsure	Binh 2014	10.1016/j.bbrc.2013.12.071	A
 66	Coxsackie virus B3	Nancy	rdrp	Ribavirin	A372V	2	orf1ab	5201	NSP12	G808		2-homologous nuc' resmut observed more than once	ok 808 or/and 809. A372 maintains hydrophobic environemnt with 229 and 225. 808 does the same with 606 and 614	unknkown - loss of hphobic pocket can shift but to what end?	Levi 2010	10.1371/journal.ppat.1001163	A
 67	 St. Louis encephalitis virus		rdrp	Ribavirin	E416K	R		4901	NSP12	K508		2-homologous nuc' resmut observed more than once	poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
 68	 St. Louis encephalitis virus		rdrp	Favipiravir	E416K	R		4901	NSP12	K508		2-homologous nuc' resmut observed more than once	poor	Forms bridge to 289 which may stericly restrict ssrna input to pol	Griesemer 2017	doi.org/10.1099/jgv.0.000682	A
@@ -107,12 +107,12 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 106	SARS-CoV-2		NSP12	Molnupiravir	S682	cat	orf1ab	5075	NSP12	S682	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
 107	SARS-CoV-2		NSP12	Molnupiravir	D760	cat	orf1ab	5153	NSP12	D760	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
 108	SARS-CoV-2		NSP12	Molnupiravir	D623	cat	orf1ab	5016	NSP12	D623	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-109	SARS-CoV-2		3clpro	Nirmatrelvir	G15S	4.4		4408	3clpro	G15S		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-110	SARS-CoV-2		3clpro	Nirmatrelvir	T135I	3.5		4528	3clpro	T135I		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-111	SARS-CoV-2		3clpro	Nirmatrelvir	S144A	91.9		4537	3clpro	S144A		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-112	SARS-CoV-2		3clpro	Nirmatrelvir	H164N	6.4		4557	3clpro	H164N		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-113	SARS-CoV-2		3clpro	Nirmatrelvir	H172Y	233		4565	3clpro	H172Y		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-114	SARS-CoV-2		3clpro	Nirmatrelvir	Q189K	65.4		4582	3clpro	Q189K		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-115	SARS-CoV-2		3clpro	Nirmatrelvir	D248E	3.7		4641	3clpro	D248E		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
-116	Norovirus	GOSH	rdrp	Favipiravir	I193V	NA	orf1ab	4959	NSP12	A566	mutants feasibly occur under Favi treatment seen with mol	3-homologous nuc' resmut observed once	good		UCL Internal	NA	A
+109	SARS-CoV-2		3clpro	Nirmatrelvir	G15S	4.4	orf1ab	3282	3clpro	G15S		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+110	SARS-CoV-2		3clpro	Nirmatrelvir	T135I	3.5	orf1ab	3402	3clpro	T135I		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+111	SARS-CoV-2		3clpro	Nirmatrelvir	S144A	91.9	orf1ab	3411	3clpro	S144A		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+112	SARS-CoV-2		3clpro	Nirmatrelvir	H164N	6.4	orf1ab	3431	3clpro	H164N		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+113	SARS-CoV-2		3clpro	Nirmatrelvir	H172Y	233	orf1ab	3439	3clpro	H172Y		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+114	SARS-CoV-2		3clpro	Nirmatrelvir	Q189K	65.4	orf1ab	3456	3clpro	Q189K		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+115	SARS-CoV-2		3clpro	Nirmatrelvir	D248E	3.7	orf1ab	3515	3clpro	D248E		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
+116	Norovirus	GOSH	rdrp	Favipiravir	I193V	NA	orf1ab	4959	NSP12	M566	mutants feasibly occur under Favi treatment seen with mol	3-homologous nuc' resmut observed once	good		UCL Internal	NA	A
 117	Norovirus	GOSH	rdrp	Favipiravir	L259M	NA	orf1ab	5029	NSP12	L636	mutants feasibly occur under Favi treatment	3-homologous nuc' resmut observed once	good	Must be same MOA at 655 as it closely contacts it, any mutation alters helix-helix conformation	UCL Internal	NA	A
