@@ -100,13 +100,13 @@ mutation_id	virus	genotype	gene	drug	aa_change	fold_change	sarscov2_polyprot	sar
 99	Human Enterovirus	EV71	rdrp	Ribavirin	S264L	R	orf1ab	5048	NSP12	L655		3-homologous nuc' resmut observed once	655-657	Unsure	Sadeghipour 2013	doi.org/10.1128/JVI.02139-12	A
 100	SARS-CoV-2		NSP12	Remdesivir	E802D	R	orf1ab	5195	NSP12	E802D		2-homologous nuc' resmut observed more than once	same virus		Gandhi 2021	doi.org/10.1101/2021.11.08.21266069	A
 101	SARS-CoV-2		NSP12	Remdesivir	D484Y	R	orf1ab	4877	NSP12	D484Y	only observed in serially treated patient ned more data				Martinot 2020	doi.org/10.1093/cid/ciaa1474	O
-102	SARS-CoV-2		NSP12	Molnupiravir	S759	cat	orf1ab	5152	NSP12	S759	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-103	SARS-CoV-2		NSP12	Molnupiravir	A688	cat	orf1ab	5081	NSP12	A688	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-104	SARS-CoV-2		NSP12	Molnupiravir	N691	cat	orf1ab	5084	NSP12	N691	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-105	SARS-CoV-2		NSP12	Molnupiravir	T687	cat	orf1ab	5080	NSP12	T687	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-106	SARS-CoV-2		NSP12	Molnupiravir	S682	cat	orf1ab	5075	NSP12	S682	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-107	SARS-CoV-2		NSP12	Molnupiravir	D760	cat	orf1ab	5153	NSP12	D760	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
-108	SARS-CoV-2		NSP12	Molnupiravir	D623	cat	orf1ab	5016	NSP12	D623	Catalytic pocket	3-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+102	SARS-CoV-2		NSP12	Molnupiravir	S759	cat	orf1ab	5152	NSP12	S759	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+103	SARS-CoV-2		NSP12	Molnupiravir	A688	cat	orf1ab	5081	NSP12	A688	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+104	SARS-CoV-2		NSP12	Molnupiravir	N691	cat	orf1ab	5084	NSP12	N691	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+105	SARS-CoV-2		NSP12	Molnupiravir	T687	cat	orf1ab	5080	NSP12	T687	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+106	SARS-CoV-2		NSP12	Molnupiravir	S682	cat	orf1ab	5075	NSP12	S682	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+107	SARS-CoV-2		NSP12	Molnupiravir	D760	cat	orf1ab	5153	NSP12	D760	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
+108	SARS-CoV-2		NSP12	Molnupiravir	D623	cat	orf1ab	5016	NSP12	D623	Catalytic pocket	6-catalytic site			Padhi 2020	doi.org/10.1016/j.isci.2020.101992	A
 109	SARS-CoV-2		3clpro	Nirmatrelvir	G15S	4.4	orf1ab	3282	3clpro	G15S		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
 110	SARS-CoV-2		3clpro	Nirmatrelvir	T135I	3.5	orf1ab	3402	3clpro	T135I		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
 111	SARS-CoV-2		3clpro	Nirmatrelvir	S144A	91.9	orf1ab	3411	3clpro	S144A		1-proven sars antiviral resistance			FDA paxlovid fact sheet	https://www.fda.gov/media/155050/download	A
