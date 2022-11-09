@@ -1,9 +1,0 @@
-MN908947.3 is the sarscov2 genome reference
-orf1ab is a polyprotein
-
-rdrp is a protein within orf1ab , found at amino acids 4393..5324
-rdrp thererfore covers the genomic coordinates 13441..16236
-
-Mpro / 3clpro is the protease
-3clpro is a protein within orf1ab, found at amino acids 3267..3563
-which is nucloetide positions

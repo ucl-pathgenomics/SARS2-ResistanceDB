@@ -1,6 +1,0 @@
-PANORAMIC_RESISTANCE:
-  # https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf
-  # Table 1
-  coverage: 0.7 # Proportion of found variants to call a type
-  variants:
-    ORF1ab:
